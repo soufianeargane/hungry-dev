@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color:#FBF7EE ;
+}
+.container{width: 1150px; margin: 40px auto;}
+/*header*/
+header{
+    width: 80%;
+    margin: auto;
+}
+
+/*main*/
+.main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main .container .article h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.main .container .article p{
+    padding-bottom: 40px;
+    color: #a2a2a2;
+}
+.email{
+    padding: 10px;
+    width: 20rem;
+    background-color: #fff;
+    border: 1px solid #b5b5b5;
+    margin-right: 10px;
+}
+.btn{
+    padding: 10px;
+    width: 130px;
+    color: #fff;
+    background-color: #0b48a8;
+    border: none;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.main .credit{
+    display: flex;
+    padding-top: 20px;
+}
+.credit .row{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.credit .row img{
+    width: 15px;
+}
+.credit .row span{
+    font-size: 12px;
+    color: #a2a2a2;
+    margin-left: 5px;
+}
+.main .container .rowImg{
+    padding-left: 50px;
+}
+.main .container .rowImg img{
+    width: 30rem;
+}
+/* section */
+.section {display: flex; justify-content: space-between; }
+.section .feature{width: 22%; background-color: #FFFFFF;padding: 27px 18px; font-family: 'karla'; border: 1px solid #B8B8B8; border-radius: 3px;}
+.section .feature p{color: #A2A2A2;}
+.section .feature p b{color: black;}
+
+/* Responsive Tablite */
+@media screen and (min-width:769px) and (max-width:1023px){
+    /*Responsive header*/
+    .main .container{
+        flex-wrap: wrap;
+    }
+    .main .container .rowImg{
+        padding: 30px 0 50px 0;
+        
+    }
+}
+
+/* Responsive Mobile */
+@media screen and (max-width:767px){
+    /*Responsive header*/
+    .main .container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .main .container .rowImg{
+        padding: 30px 0 50px 0;
+    }
+    .main .container .rowImg img{
+        width: 25rem;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    .container .credit{
+        justify-content: center;
+    }
+}
