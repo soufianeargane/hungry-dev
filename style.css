@@ -113,7 +113,7 @@ header{
     padding-left: 50px;
 }
 .main .container .rowImg img{
-    width: 30rem;
+    width: 100%;
 }
 /* section */
 section .container{width: 90%; margin: 40px auto;}
@@ -138,7 +138,6 @@ section .container{width: 90%; margin: 40px auto;}
     height: 41px;
     opacity: 70%;
     font-size: 20px;
-   
 }
 #part4
 {
@@ -148,16 +147,12 @@ section .container{width: 90%; margin: 40px auto;}
     padding: 2px;
     flex-wrap: wrap;
     padding: 0%;
-  
-
 }
 #part4 .box2:last-child
 {
     background-color: #fff;
     padding: 0px;
     border-radius: 5px;
-   
-   
     opacity: 80%;
     box-sizing: 0.2;
     height: 50%;
@@ -309,10 +304,22 @@ footer{width: 90%; margin: auto; color: #13366D; font-weight: bolder; margin-bot
     /*Responsive header*/
     .main .container{
         flex-wrap: wrap;
-        flex-basis: 0;
+        text-align: center;
+    }
+    .container .article{
+        font-size: 12px;
+    }
+    .container .credit{
+        justify-content: center;
     }
     .main .container .rowImg{
         padding: 30px 0 50px 0; 
+    }
+    .main .container .rowImg{
+        width: 30rem;
+    }
+    .main .container .rowImg img{
+        width: 100%;
     }
     /* section */
     .section{display: flex; flex-wrap: wrap;}
@@ -360,9 +367,10 @@ footer{width: 90%; margin: auto; color: #13366D; font-weight: bolder; margin-bot
     }
     .main .container .rowImg{
         padding: 30px 0 50px 0;
+        width: 30rem;
     }
     .main .container .rowImg img{
-        width: 25rem;
+        width: 100%;
     }
     .btn{
         margin-top: 15px;
