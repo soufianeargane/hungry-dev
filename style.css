@@ -7,7 +7,7 @@
  
 /*header*/
 header{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -37,8 +37,8 @@ header{
     padding: 10px;
     width: 130px;
     color: #fff;
-    background-color: #0b48a8;
-    border: none;
+    background-color: #3583ff;
+    border: solid;
     font-weight: 900;
     border-radius: 10px;
 }
@@ -71,12 +71,173 @@ section .container{width: 90%; margin: 40px auto;}
 .section .feature{width: 22%; background-color: #FFFFFF;padding: 27px 18px; font-family: 'karla'; border: 1px solid #B8B8B8; border-radius: 3px;}
 .section .feature p{color: #A2A2A2;}
 .section .feature p b{color: black;}
+/*this is my part*/
+.mysec .container{width: 90%; }
+#title2
+{
+    width: 612px;
+    height: 63px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#parag
+{
+    width: 612px;
+    height: 41px;
+    opacity: 70%;
+    font-size: 20px;
+   
+}
+#part4
+{
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 0;
+    padding: 2px;
+    flex-wrap: wrap;
+    padding: 0%;
+  
 
+}
+#part4 .box2:last-child
+{
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+   
+   
+    opacity: 80%;
+    box-sizing: 0.2;
+    height: 50%;
+    font-size: x-small;
+    padding: 1%;
+
+}
+#part4 .box2:nth-child(2) h3
+{
+    margin-top: 30%;
+
+}
+#part4 .box2:nth-child(1) h3
+{
+    margin-top: 39%;
+
+}
+#part4 .box2:nth-child(3) h3
+{
+    margin-top: 52%;
+
+}
+#part4 .box2:nth-child(1) .lastbutton    
+{
+    color: white;
+    background-color: #3079ff;
+
+}
+
+
+.box2
+{
+    
+    border-color: rgb(0, 0, 0);
+    box-sizing: inherit;
+    border-radius:8px ;
+    width: 22%;
+    background-color: #fffaca; 
+    padding: 10px;
+    margin: 12px;
+    margin-left: 0.2%;
+    border-width: thin;
+    border-style: solid;
+    height: 90%;
+    padding-inline-start: 2%;
+}
+
+#textads
+{
+    background-color: white;
+    opacity: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2 p
+{
+    background-color: #fffaca; 
+    border-radius: 10px;
+}
+
+.firstbutton
+{
+    margin-top: 12px;
+    border-radius: 100px;
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #346cc7;
+    border-color: #b9b9b9;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+ul li
+{
+    list-style: none;
+    background-color: #fffaca; 
+}
+.lastbutton
+{
+
+    position: relative;
+    margin-top: 12px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #3079ff;
+    border-radius: 20px;
+    width: 85%;
+    border-color: #3079ff;
+    background-color: #fffaca; 
+}
+.smalllogo
+{
+    width: 12px;
+    height: 12px;
+    background-color: #fffaca; 
+}
+.listeitems 
+{
+    margin-top: 10px;
+    background-color: #fffaca; 
+}
+.price
+{
+    position: relative;
+    background-color: #fffaca; 
+    margin-top: 30%;   
+    
+   
+}
+
+#ads
+{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 25%;
+    width: 80%;
+    height:30% ;
+    margin-left: 8%;
+    
+}
+h6
+{
+    margin-top: 12px;
+    background-color: white;
+}
 /* Responsive Tablite */
 @media screen and (min-width:769px) and (max-width:1023px){
     /*Responsive header*/
     .main .container{
         flex-wrap: wrap;
+        flex-basis: 0;
     }
     .main .container .rowImg{
         padding: 30px 0 50px 0; 
@@ -84,7 +245,23 @@ section .container{width: 90%; margin: 40px auto;}
     /* section */
     .section{display: flex; flex-wrap: wrap;}
     .section .feature {margin: 10px auto; width: 45%;}
+     /*this is mine*/
+     .box2
+     {
+        margin: 10px auto; width: 45%;
+     }
+
+
+#part3
+    {
+       margin-left: 3%;
+        justify-content: center;
+        font-size: smaller;
+    }
+
 }
+
+ 
 
 /* Responsive Mobile */
 @media screen and (max-width:767px){
@@ -108,4 +285,47 @@ section .container{width: 90%; margin: 40px auto;}
     /* section */
     .section{display: flex; flex-direction: column;}
     .section .feature {margin: 10px auto; width: 50%;}
+    /*this is*/
+#part3
+    {
+        margin-left: 25%;
+        justify-content: center;
+        font-size: x-small;
+    }
+#part4
+{
+    display: block;
+}
+.box2
+{
+    border: #8b8b8b;
+    box-sizing: inherit;
+    border-radius: 3px;
+    width: 50%;
+    padding: 10%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+
+}
+#part4 :last-child
+{
+    background-color: #fff;
+    padding: 0px;
+}
+#title2
+{
+    width: 612px;
+    height: 63px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+}
+#parag
+{
+    width: 612px;
+    height: 41px;
+    opacity: 70%;
+    font-size: smaller;
+   
+}
 }
