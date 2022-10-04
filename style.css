@@ -10,6 +10,56 @@ header{
     width: 90%;
     margin: auto;
 }
+.nav{
+    margin: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 80px ;
+    height: 40px;
+}
+.Menu ul{
+    display: flex;
+    list-style: none;
+}
+.Menu ul li {
+    margin: 15px 20px;
+    background-color: #FBF7EE;
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Menu ul li a:hover {
+   text-decoration: underline;
+}
+.Choix ul {
+    display: flex;
+    list-style: none;
+}
+.Choix ul li {
+    margin: 15px 20px;
+    background-color: #FBF7EE;
+}
+
+.Choix  {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Choix ul li a:hover {
+    text-decoration: overline;
+}
+.Choix ul li a {
+    text-decoration: none;
+    color: black;
+}
+.Choix .btn {
+    color: #fff;
+}
 
 /*main*/
 .main .container{
@@ -68,9 +118,11 @@ header{
 /* section */
 section .container{width: 90%; margin: 40px auto;}
 .section {display: flex; justify-content: space-between; }
-.section .feature{width: 22%; background-color: #FFFFFF;padding: 27px 18px; font-family: 'karla'; border: 1px solid #B8B8B8; border-radius: 3px;}
-.section .feature p{color: #A2A2A2;}
-.section .feature p b{color: black;}
+.section .feature{width: 22%; background-color: white;padding: 27px 18px; font-family: 'karla'; border: 1px solid #B8B8B8; border-radius: 3px;}
+.section .feature img{background-color: white;}
+.section .feature h3{background-color: white;}
+.section .feature p{color: #A2A2A2; background-color: white;}
+.section .feature p b{color: black; background-color: white;}
 /*this is my part*/
 .mysec .container{width: 90%; }
 #title2
@@ -234,6 +286,21 @@ h6
 }
 /* Responsive Tablite */
 @media screen and (min-width:769px) and (max-width:1023px){
+    /*Responsive nav*/
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .Menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .Choix ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+    }
     /*Responsive header*/
     .main .container{
         flex-wrap: wrap;
@@ -265,6 +332,22 @@ h6
 
 /* Responsive Mobile */
 @media screen and (max-width:767px){
+    /*Responsive nav*/
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .Menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .Choix ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 10px;
+    }
+
     /*Responsive header*/
     .main .container{
         flex-wrap: wrap;
