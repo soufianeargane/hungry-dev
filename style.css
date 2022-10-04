@@ -284,6 +284,11 @@ h6
     margin-top: 12px;
     background-color: white;
 }
+
+/* start footer */
+footer{width: 90%; margin: auto; color: #13366D; font-weight: bolder; margin-bottom: 40px;}
+
+
 /* Responsive Tablite */
 @media screen and (min-width:769px) and (max-width:1023px){
     /*Responsive nav*/
